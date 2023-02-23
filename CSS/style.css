@@ -1,0 +1,309 @@
+/* CSSS noFlexBox, no Grid */ 
+/* max width 1530px */
+
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+h2{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+hr{
+  margin: 8px auto;
+  width: 1500px;
+}
+
+.separator{
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-hr{
+  width: 60px;
+}
+
+.sep-one{
+  float: left;
+}
+
+.sep-two{
+  float: right;
+}
+.esp{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #5CADD3;
+}
+
+
+.icones{
+  color: #5CADD3;
+  float: left;
+  display: inline;
+  margin-left: -70px;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+
+.wrapper{
+  /*width: 1530px;*/
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* HEADER */ 
+
+header{ 
+  background-color: #fff;
+  height: 60px;
+  padding: 25px;  
+}
+
+header div img{
+  float: left;
+  padding-left: 200px;
+  width: 250px;
+  height: 50px;
+}
+
+header nav{
+  float: right;
+  padding-right: 200px;
+}
+
+header nav ul li{
+  display: inline-block;
+  margin: 0 40px 0 0;
+  padding: 15px 0 0 0;
+}
+
+header nav ul li a:hover{
+  border-top: 3px solid #5CADD3;
+  padding-top: 35px;
+  color: #5CADD3;
+}
+
+/* main slider */
+
+#slider{
+  margin: auto;
+  width: 1500px;
+  height: 550px;
+  background: url(../asset/webagency_images/images/slider/bg1.jpg) center no-repeat;
+}
+
+.slider-content{
+  color: #fff;
+  margin-left: 140px;
+  padding-top: 140px;
+}
+
+.slider-content h1{
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.slider-content h1 span{
+  color: #5cadd3;
+}
+
+.text-slider{
+  margin-bottom: 16px;
+}
+.button1{
+  display: block;
+  background-color: #5cadd3;
+  width: 100px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/*SERVICES*/
+
+#services{
+  text-align: center;
+  padding: 75px;
+}
+
+.services-img{
+  width: 510px;
+  height: 319px;
+  float: left;
+  padding-left: 250px;
+}
+
+.services-items{
+  width: 740px;
+  padding-top: 140px;
+  float: right;
+  text-align: justify;
+}
+
+.services-items ul li{
+  padding-bottom: 40px;
+}
+
+/* project */
+
+#project{
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 75px;
+  width: 1350px;
+  margin: 0 auto;
+}
+
+.btn-items li{
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.btn1, .btn2, .btn3{
+  background-color: #E5E5E5;
+  border: none;
+  width: 150px;
+  height: 50px;
+  margin-right: -4px;
+  font-weight: bold;
+  color: #64686d;
+}
+
+.btn1{
+  border-radius: 8px 0 0 8px;
+}
+
+
+.btn3{
+  border-radius: 0 8px 8px 0;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover{
+  box-shadow: 0px 4px 0px #5cadd3;
+  background-color: #5cadd3;
+  color: #fff;
+}
+
+
+.bulle{
+  position: absolute;
+  left: 68px;
+  bottom: -15px;
+  display: none;
+}
+
+.btn1:hover + .bulle{
+  display: block;
+}
+
+.btn2:hover + .bulle{
+  display: block;
+}
+
+.btn3:hover + .bulle{
+  display: block;
+}
+
+.project-img1 ul li{
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.img-portfolio{
+  width: 270px;
+  height: 180px;
+}
+
+.text-hover{
+  position: absolute;
+  margin-top: -80px;
+  width: 240px;
+  height: 57px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  opacity: 0;
+}
+
+.text-hover:hover{
+  position: absolute;
+  margin-top: -80px;
+  width: 240px;
+  height: 57px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  opacity: 1;
+  font-weight:bold;
+}
+
+.text-hover a{
+  color: #fff;
+}
+
+.fa-eye{
+  background-color: #5CADD3;
+  color: #fff;
+  font-size: 22px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  padding-top: 22px;
+  margin-top: -54px;
+  margin-left: 220px; 
+}
+
+/*FOOTER*/
+
+
+#contact{
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 75px;
+  width: 1350px;
+  height: 880px;
+  margin: 0 auto;
+}
+
+iframe{
+  position: absolute;
+    width: 78%;
+    height: 100%;
+    top: 2150px;
+    left: 210px;
+    border: none;
+}
