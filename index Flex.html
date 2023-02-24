@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;
     0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="./CSS/styleflex.css">
   <title>WebAgency -Flex-</title>
 </head>
@@ -120,19 +120,19 @@
         <p class="text">Plusieurs personnes nous font confiance, pourquoi pas vous ?<br>
           Voila de quoi vous aidez à faire votre choix</p>
         <ul class="btn-items">
-          <li>
+          <li class="btn-link">
             <button class="btn1">All Work</button>
             <img class="bulle" src="../Projet Webagency/asset/webagency_images/images/bulle.png">
           </li>
-          <li>
+          <li class="btn-link">
             <button class="btn2">Creative</button>
             <img class="bulle" src="../Projet Webagency/asset/webagency_images/images/bulle.png">
           </li>
-          <li>
+          <li class="btn-link">
             <button class="btn2">Corporate</button>
             <img class="bulle" src="../Projet Webagency/asset/webagency_images/images/bulle.png">
           </li>
-          <li>
+          <li class="btn-link">
             <button class="btn3">Portfolio</button>
             <img class="bulle" src="../Projet Webagency/asset/webagency_images/images/bulle.png">
           </li>
@@ -240,11 +240,30 @@
 
   <footer>
     <div id="contact">
-      <div class="wrapper">
-        <iframe
+      <div class="filter">
+        <iframe class="map"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214246080416!2d2.3476369158913126!3d48.87305530762782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1677059188160!5m2!1sfr!2sfr"
           width="1500" height="1000" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="form">
+        <h4>Contact Info</h4>
+        <h4>Web Agency SAS</h4>
+        <form class="contact" method="post" action="#"></form>
+        <p class="txt-contact">25 rue d'Hauteville 75010 Paris<br>
+          Tel: 0102030405</p>
+
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Nom" name="name" required>
+
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Email" name="email" required>
+
+        <label for="subject"></label>
+        <input type="text" id="subject" placeholder="Sujet" name="sujet" required>
+
+        <textarea rows="10" id="message" placeholder="Votre message..." name="message"></textarea>
+        <button type="submit">Envoyer votre messager</button>
       </div>
     </div>
   </footer>

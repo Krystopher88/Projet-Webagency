@@ -195,3 +195,198 @@ h1 span{
 }
 
 
+/* PROJECT */
+
+#project{
+  text-align: center;
+  padding: 75px;
+  margin-bottom: -70px;
+}
+
+.text{
+  margin-bottom: 20px;
+}
+
+.btn-items{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.btn-link{
+  position: relative;
+  width: 150px;
+  height: 50px;
+}
+
+.btn1, .btn2, .btn3{
+  background-color: #E5E5E5;
+  border: none;
+  width: 150px;
+  height: 50px;
+  margin-right: -4px;
+  font-weight: bold;
+  color: #64686d;
+}
+
+.btn1{
+  border-radius: 8px 0 0 8px;
+}
+
+
+.btn3{
+  border-radius: 0 8px 8px 0;
+}
+
+.bulle{
+  position: absolute;
+  bottom: -9px;
+  left: 68px;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover{
+  box-shadow: 0px 4px 0px #5cadd3;
+  background-color: #5cadd3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bulle{
+  position: absolute;
+  left: 68px;
+  bottom: -15px;
+  display: none;
+}
+
+.btn1:hover + .bulle{
+  display: block;
+}
+
+.btn2:hover + .bulle{
+  display: block;
+}
+
+.btn3:hover + .bulle{
+  display: block;
+}
+
+.project-img1 ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.project-img1 ul li{
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.img-portfolio{
+  width: 270px;
+  height: 180px;
+}
+
+.text-hover{
+  position: absolute;
+  margin-top: -80px;
+  width: 240px;
+  height: 57px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  opacity: 0;
+}
+
+.text-hover:hover{
+  position: absolute;
+  margin-top: -80px;
+  width: 240px;
+  height: 57px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  opacity: 1;
+  font-weight:bold;
+}
+
+.text-hover a{
+  color: #fff;
+}
+
+.fa-eye{
+  background-color: #5CADD3;
+  color: #fff;
+  font-size: 22px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  padding-top: 22px;
+  margin-top: -54px;
+  margin-left: 220px; 
+}
+
+/* FOOTER */
+
+#contact{
+  position: relative;
+  margin-top: 50px;
+}
+
+.filter{
+  background: #C6A2E8;
+  opacity: 1;
+}
+
+.map{
+  opacity: 0.8;
+}
+
+.form{
+  background-color: #fff;
+  opacity: 0.8;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 530px;
+  top: 50px;
+  right: 70px;
+  border-radius: 3%;
+}
+
+
+.form p, .form h4{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+.form input{
+margin-bottom: 20px;
+width: 320px;
+margin: 15px auto;
+}
+
+.form textarea{
+  width: 320px;
+  margin: 0 auto;
+}
+
+.form button{
+  background-color: #5CADD3;
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  box-shadow: 0px 4px 0px #5cadd3;
+  background-color: #5cadd3;
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
