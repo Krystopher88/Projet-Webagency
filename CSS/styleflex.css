@@ -54,11 +54,16 @@ h2{
 /* HEADER */
 
 .header-nav{
+  background-color: #fff;
   display: flex;
   justify-content: space-around; 
   align-items: center;
   width: 1500px;
+  height: 100px;
   margin: 25px 0;
+  position: fixed;
+  margin-top: 0;
+  z-index: 1;
 }
 
 .logo{
@@ -83,14 +88,20 @@ h2{
 
 /* MAIN SLIDER */
 
+.slider{
+  margin-top: 60px;
+}
+
 .slider-content{
   color: #fff;
   margin-bottom: -165px;
+
 }
 
 .img-slider{
   width: 1500px;
   height: 550px;
+  margin-top: 150px;
 }
 
 .text-slider{
