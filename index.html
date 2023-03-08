@@ -11,7 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;
     0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/styleflex.css">
   <title>WebAgency -Flex-</title>
 </head>
@@ -32,15 +33,30 @@
   </header>
   <main>
     <section id="slider">
-      <div class="wrapper">
-        <div class="slider-content">
-          <img class="img-slider" src="./asset/webagency_images/images/slider/bg1.jpg" alt="slider01">
-          <h1 class="text-slider"><span>Web Agency</span>: l'Agence de tous<br>vos projets !</h1>
-          <p class="text-slider">Vous avez un projet web ? La WebAgency vous aide à la réaliser !</p>
-          <a class="text-slider button1" href="#"> Plus d'infos</a>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./asset/webagency_images/images/slider/bg1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/webagency_images/images/slider/bg2.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="slider-content">
+      <h1 class="text-slider"><span>Web Agency</span>: l'Agence de tous<br>vos projets !</h1>
+      <p class="text-slider">Vous avez un projet web ? La WebAgency vous aide à la réaliser !</p>
+      <a class="text-slider button1" href="#"> Plus d'infos</a>
+    </div>
+  </section>
     <hr>
     <section id="services">
       <div class="wrapper">
@@ -268,6 +284,9 @@
     </div>
   </footer>
   <hr>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

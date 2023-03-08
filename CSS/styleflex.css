@@ -52,6 +52,9 @@ h2{
 }
 
 /* HEADER */
+#header{
+  padding-bottom: 50px;
+}
 
 .header-nav{
   background-color: #fff;
@@ -82,15 +85,11 @@ h2{
 .nav .nav-block .nav-link a:hover{
   color: #5CADD3;
   border-top: 3px solid #5CADD3;
-  padding-top: 35px;
+  padding-top: 25px;
 }
 
 
 /* MAIN SLIDER */
-
-.slider{
-  margin-top: 60px;
-}
 
 .slider-content{
   color: #fff;
@@ -98,15 +97,9 @@ h2{
 
 }
 
-.img-slider{
-  width: 1500px;
-  height: 550px;
-  margin-top: 150px;
-}
-
 .text-slider{
   position: relative;
-  left: 140px;
+  left: 200px;
   top: -400px;
 }
 
@@ -129,11 +122,10 @@ h1 span{
   display: block;
   background-color: #5cadd3;
   width: 100px;
-  height: 16px;
+  height: 40px;
   font-size: 14px;
+  padding-top: 10px;
   font-weight: bold;
-  padding-top: 12px;
-  padding-bottom: 12px;
   text-align: center;
   border-radius: 5px;
   color: #fff;
